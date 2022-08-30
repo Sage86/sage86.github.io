@@ -1,0 +1,715 @@
+/*
+Colors used:
+Primary Color (White): #FFFFFF;
+Secondary Color (Black): #000000;
+Tertiary Color (Lobster): #FF603E;
+Fourth Colour (Mustard): #F49F1C;
+Fifth Colour (Sage): #A8C1B7;
+Sixth Colour (Darker Sage) #7EA997;
+Seventh Colour (Dark Sage) #54977B;
+*/
+
+
+/* LAYOUT STYLING */
+
+
+/* HEADER */
+
+header {
+    background-color: #A8C1B7;
+    padding: 10px 5px 10px 5px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 6px -6px #222;
+}
+
+header>.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#myNavtoggle.navtoggle {
+    display: none;
+}
+
+#myNavtoggle.navtoggle.responsive {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.smaller-image {
+    max-width: 250px;
+    width: 100px;
+    height: auto;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+#heroh1 {
+    background-color: #A8C1B7;
+    text-align: center;
+    padding: 20px 0;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    vertical-align: top;
+    width: 100%;
+}
+
+
+/* HEADER - HERO */
+
+.header {
+    text-align: unset;
+}
+
+
+/* NAV BAR */
+
+#header-hero {
+    text-align: center;
+}
+
+
+/* Hero section */
+
+#hero {
+    background-color: #ffffff;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#hero {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#container-hero {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#hero span {
+    display: block;
+}
+
+div.a {
+    text-align: center;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+
+/* BODY */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    /* Sets the font size to 18px */
+    font-weight: 300;
+    /* Sets the font weight to 300 */
+    line-height: 1.6;
+    /* Sets the line-height to 1.6 * the font-size */
+    color: #4a4a4a;
+}
+
+p {
+    color: #000000;
+}
+
+h4 {
+    text-align: left;
+}
+
+.logo {
+    background-color: #A8C1B7;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    border-bottom: 3px solid #4a4a4a;
+}
+
+.logo {
+    max-width: 250px;
+    text-align: center;
+}
+
+
+/* ADD MARGIN AT TOP AND BOTTOM */
+
+.row {
+    margin: 25px 0;
+    /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+#about .row {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+#contact .row {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+
+/* BUTTONS */
+
+a {
+    color: #7EA997;
+    text-decoration: none;
+    /* No underlining */
+}
+
+a:hover {
+    color: #54977B;
+    text-decoration: underline;
+    ;
+    /* Underlining when hovering over a link */
+}
+
+a:visited {
+    /* visited link */
+    color: #54977B;
+}
+
+a:active {
+    /* selected link */
+    color: #54977B;
+}
+
+a:hover,
+a:focus {
+    color: #7EA997;
+    text-decoration: underline;
+}
+
+
+/* HEADER FONTS */
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 2.75em;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+}
+
+
+/* IMAGES */
+
+img {
+    width: 500px;
+    height: 350px;
+}
+
+
+/* TEXT ALIGNMENT */
+
+.about-title {
+    margin-top: 60px;
+}
+
+#icon {
+    text-align: center;
+}
+
+#getintouch {
+    text-align: center;
+}
+
+#Perennial {
+    text-align: left;
+}
+
+#berlin-animation {
+    text-align: left;
+}
+
+#Appetite {
+    text-align: left;
+}
+
+#mywork {
+    text-align: center;
+}
+
+#copyright {
+    text-align: center;
+}
+
+#mystory {
+    text-align: center;
+}
+
+#mystory-p {
+    text-align: justify;
+}
+
+#about {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+#Title-Appetite {
+    text-align: center;
+}
+
+#Title-Perennial {
+    text-align: center;
+}
+
+#casestudy-Perennial {
+    text-align: left;
+}
+
+#casestudy-Appetite {
+    text-align: left;
+}
+
+#Research {
+    text-align: justify;
+}
+
+#Ideation {
+    text-align: left;
+}
+
+#Ideation-p {
+    text-align: justify;
+}
+
+#Problem-Goal {
+    text-align: left;
+}
+
+#Conclusion {
+    text-align: left;
+}
+
+#StyleGuide {
+    text-align: center;
+}
+
+#Typography {
+    text-align: left;
+}
+
+#ColourPalette {
+    text-align: center;
+}
+
+#hero h1 {
+    text-align: center;
+    /* Centers text */
+    margin: 0;
+    padding: 0.67em 0;
+}
+
+#hero h2 {
+    text-align: center;
+    /* Centers text */
+}
+
+#relevantskills {
+    text-align: left;
+}
+
+#toolsused {
+    text-align: left;
+}
+
+#Appetite_Taupe {
+    height: 50%;
+    width: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.AppetiteStyleGuideSwatchTaupe {
+    width: 100px;
+    height: 100px;
+}
+
+.getintouch {
+    text-align: center;
+    /* Centers text */
+}
+
+.getintouch>.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer p {
+    text-align: center;
+    /* Centers text */
+}
+
+
+/* FOOTER ICONS */
+
+.linkedin-icon,
+.behance-icon,
+.github-icon {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.linkedin-icon:hover {
+    fill: #0e76a8;
+}
+
+.behance-icon:hover {
+    fill: #053eff;
+}
+
+.github-icon:hover {
+    fill: #333333;
+}
+
+
+/*ANIMATION */
+
+.berlin-illustration {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*Sun */
+
+@keyframes color-change {
+    from {
+        fill: #edc655;
+    }
+    to {
+        fill: #f76414;
+    }
+}
+
+.sun {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+/*Cloud Front */
+
+@keyframes cloud-move {
+    from {
+        transform: translate(0, 50px);
+    }
+    to {
+        transform: translate(200px, 50px);
+    }
+}
+
+.cloud-front {
+    animation-duration: 20s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+/*Cloud Back */
+
+@keyframes cloud-move-reverse {
+    from {
+        transform: translate(446px, 48px);
+    }
+    to {
+        transform: translate(100px, 48px);
+    }
+}
+
+.cloud-back {
+    animation: 20s cloud-move-reverse infinite alternate linear;
+}
+
+
+/*ANIMATION */
+
+
+/* FOOTER - SOCIAL MEDIA */
+
+footer {
+    background-color: #A8C1B7;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BUTTON STATES */
+
+.button.contact {
+    background-color: transparent;
+    color: #000000;
+    text-transform: supportive;
+    border: 2px solid #54977B;
+}
+
+.button.contact:hover {
+    background-color: #7EA997;
+    color: #ffffff;
+}
+
+.button:hover {
+    opacity: 0.8;
+    /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
+}
+
+.button:active {
+    opacity: 0.8;
+    /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:visited {
+    /* visited link */
+    color: #000000;
+}
+
+a:active {
+    /* selected link */
+    color: #994c30;
+}
+
+.button {
+    display: inline-block;
+    /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: #7EA997;
+    color: #ffffff;
+    /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #54977B;
+    /* width of the border, type, color */
+    transition-duration: 0.2s;
+    transition-property: opacity;
+}
+
+.col-container-main {
+    padding: 10px 0;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+
+.col-container-main:last-of-type {
+    border-bottom: none;
+}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+
+@media only screen and (min-width: 640px) and (orientation: landscape) {
+    #hero {
+        margin-top: 40px;
+    }
+    #heroh1 {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 640px) and (orientation: portrait) {
+    /* Navigation bar */
+    .no-bullets {
+        list-style-type: none;
+        margin: 0;
+        padding: 10px 0 4px;
+        text-align: center;
+        vertical-align: top;
+    }
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    #hero {
+        margin-top: 80px;
+    }
+    .col-container-main {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+        margin: 0 10px 10px 10px;
+    }
+    /* Create two equal columns that floats next to each other */
+    .col-md-6 {
+        width: 50%;
+    }
+    [class*="col-"] {
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* Clear floats after the columns */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    header {
+        text-align: unset;
+        padding: 20px 0 13px;
+    }
+    nav {
+        width: auto;
+        margin: 4px 0 1em 0;
+    }
+    .icon {
+        display: none;
+    }
+}
+
+
+/* Create two equal columns that floats next to each other */
+
+.col-md-6 {
+    width: 50%;
+}
+
+[class*="col-"] {
+    float: left;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+
+/* Clear floats after the columns */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+
+@media only screen and (min-width: 1024px) {}
+
+.col-md-5 {
+    width: 40%;
+}
+
+.col-md-7 {
+    width: 40%;
+}
+
+[class*="col-"] {
+    float: left;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+}
+
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+
+@media only screen and (min-width: 1440px) {}
+
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+
+@media only screen and (min-width: 1920px) {}
